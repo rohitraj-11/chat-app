@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "env-cmd ./config/test.env jest --watch --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.16.4",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
